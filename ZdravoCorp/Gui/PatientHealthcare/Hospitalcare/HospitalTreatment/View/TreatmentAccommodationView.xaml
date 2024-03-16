@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="ZdravoCorp.Gui.PatientHealthcare.Hospitalcare.HospitalTreatment.View.TreatmentAccommodationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ZdravoCorp.Gui.PatientHealthcare.Hospitalcare.HospitalTreatment.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <DataGrid SelectionMode="Single" IsReadOnly="True" ColumnWidth="*" SelectedItem="{Binding SelectedRoomId, UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding AccommodationRooms, UpdateSourceTrigger=PropertyChanged}" SelectionChanged="AvailableAccommodationRoomsDataGrid_SelectionChanged" x:Name="AvailableAccommodationRoomsDataGrid" HorizontalAlignment="Left" Height="184" Margin="60,39,0,0" VerticalAlignment="Top" Width="754" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <TextBox x:Name="idTreatmentReferralTxt" Text="{Binding IdTreatmentReferral, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="23" Margin="333,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246"/>
+        <Label Content="Treatment id:" HorizontalAlignment="Left" Height="23" Margin="144,289,0,0" VerticalAlignment="Top" Width="162"/>
+        <Button x:Name="LoadAvailableRoomsBtn" Content="Load" Command="{Binding LoadAvailableAccommodationRoomsCommand}" HorizontalAlignment="Left" Height="42" Margin="174,356,0,0" VerticalAlignment="Top" Width="162"/>
+        <Button x:Name="AccommodateBtn" Content="Accommodate" Command="{Binding AccommodatePatientCommand}" HorizontalAlignment="Left" Height="42" Margin="525,356,0,0" VerticalAlignment="Top" Width="190"/>
+    </Grid>
+</UserControl>

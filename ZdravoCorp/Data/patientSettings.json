@@ -1,0 +1,51 @@
+[
+  {
+    "Patient jmbg": "111111113",
+    "Drug notification": "03:30:00",
+    "Other notification": "null",
+    "Other notification time": "00:30:00",
+    "Other notification date": "2023-05-11T13:30:00"
+  },
+  {
+    "Patient jmbg": "222222223",
+    "Drug notification": "00:30:00",
+    "Other notification": "null",
+    "Other notification time": "00:30:00",
+    "Other notification date": "2023-05-11T13:30:00"
+  },
+  {
+    "Patient jmbg": "123456789",
+    "Drug notification": "00:35:00",
+    "Other notification": "null",
+    "Other notification time": "00:30:00",
+    "Other notification date": "2023-05-11T13:30:00"
+  },
+  {
+    "Patient jmbg": "696964321",
+    "Drug notification": "00:35:00",
+    "Other notification": "null",
+    "Other notification time": "00:30:00",
+    "Other notification date": "2023-05-11T13:30:00"
+  },
+  {
+    "Patient jmbg": "555444333",
+    "Drug notification": "00:35:00",
+    "Other notification": "null",
+    "Other notification time": "00:30:00",
+    "Other notification date": "2023-05-11T13:30:00"
+  },
+  {
+    "Patient jmbg": "333222111",
+    "Drug notification": "00:35:00",
+    "Other notification": "null",
+    "Other notification time": "00:30:00",
+    "Other notification date": "2023-05-11T13:30:00"
+  },
+  {
+    "Patient jmbg": "133222333",
+    "Drug notification": "00:35:00",
+    "Other notification": "null",
+    "Other notification time": "00:30:00",
+    "Other notification date": "2023-05-11T13:30:00"
+  }
+]

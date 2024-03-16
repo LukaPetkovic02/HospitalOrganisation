@@ -1,0 +1,23 @@
+[
+  {
+    "DoctorJMBG:": "111222333",
+    "Service": 4,
+    "Recommendation": 5,
+    "Comment": "aaa",
+    "FinalGrade": 4
+  },
+  {
+    "DoctorJMBG:": "111222333",
+    "Service": 1,
+    "Recommendation": 1,
+    "Comment": "aaa",
+    "FinalGrade": 1
+  },
+  {
+    "DoctorJMBG:": "111222333",
+    "Service": 1,
+    "Recommendation": 3,
+    "Comment": "ok doctor but didn't shower for 3 months",
+    "FinalGrade": 2
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Id": "69500",
+    "Drug": "Zyrtec",
+    "Start": "2023-05-21T00:00:00",
+    "End": "2023-05-31T00:00:00",
+    "Daily dose": 3,
+    "Consumption time": 1,
+    "Patient jmbg": "111111113",
+    "Doctor jmbg": "987654321",
+    "Used": false
+  },
+  {
+    "Id": "46766",
+    "Drug": "Ambien",
+    "Start": "2023-06-22T00:00:00",
+    "End": "2023-06-26T00:00:00",
+    "Daily dose": 3,
+    "Consumption time": 0,
+    "Patient jmbg": "111111113",
+    "Doctor jmbg": "987654321",
+    "Used": false
+  },
+  {
+    "Id": "29795",
+    "Drug": "Zoloft",
+    "Start": "2023-06-22T00:00:00",
+    "End": "2023-06-28T00:00:00",
+    "Daily dose": 8,
+    "Consumption time": 3,
+    "Patient jmbg": "555444333",
+    "Doctor jmbg": "987654321",
+    "Used": false
+  },
+  {
+    "Id": "94792",
+    "Drug": "Zyrtec",
+    "Start": "2023-06-30T00:00:00",
+    "End": "2023-07-02T00:00:00",
+    "Daily dose": 2,
+    "Consumption time": 2,
+    "Patient jmbg": "555444333",
+    "Doctor jmbg": "987654321",
+    "Used": false
+  },
+  {
+    "Id": "94892",
+    "Drug": "Zyrtec",
+    "Start": "2023-05-20T00:00:00",
+    "End": "2023-05-31T00:00:00",
+    "Daily dose": 2,
+    "Consumption time": 2,
+    "Patient jmbg": "555444333",
+    "Doctor jmbg": "987654321",
+    "Used": true
+  },
+  {
+    "Id": "32273",
+    "Drug": "Tylenol",
+    "Start": "2023-06-02T00:00:00",
+    "End": "2023-06-06T00:00:00",
+    "Daily dose": 3,
+    "Consumption time": 2,
+    "Patient jmbg": "696964321",
+    "Doctor jmbg": "123123123",
+    "Used": false
+  },
+  {
+    "Id": "13774",
+    "Drug": "Tylenol",
+    "Start": "2023-06-02T00:00:00",
+    "End": "2023-06-05T00:00:00",
+    "Daily dose": 2,
+    "Consumption time": 1,
+    "Patient jmbg": "111111113",
+    "Doctor jmbg": "123123123",
+    "Used": false
+  },
+  {
+    "Id": "86715",
+    "Drug": "Zyrtec",
+    "Start": "2023-07-03T00:00:00",
+    "End": "2023-07-05T00:00:00",
+    "Daily dose": 3,
+    "Consumption time": 3,
+    "Patient jmbg": "111111113",
+    "Doctor jmbg": "123123123",
+    "Used": false
+  },
+  {
+    "Id": "25966",
+    "Drug": "Benadryl",
+    "Start": "2023-06-01T00:00:00",
+    "End": "2023-06-04T00:00:00",
+    "Daily dose": 2,
+    "Consumption time": 2,
+    "Patient jmbg": "123456789",
+    "Doctor jmbg": "123123123",
+    "Used": false
+  },
+  {
+    "Id": "13590",
+    "Drug": "Prozac",
+    "Start": "2023-05-31T00:00:00",
+    "End": "2023-06-03T00:00:00",
+    "Daily dose": 3,
+    "Consumption time": 0,
+    "Patient jmbg": "111111113",
+    "Doctor jmbg": "123123123",
+    "Used": false
+  }
+]

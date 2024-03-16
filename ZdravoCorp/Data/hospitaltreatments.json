@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "21562",
+    "PatientJmbg": "222222223",
+    "ReferralId": "55027",
+    "Start": "2023-06-14T15:28:11.4312959+02:00",
+    "End": "2023-06-17T15:28:11.4312987+02:00",
+    "Therapy": "Sleep at least 8 hours",
+    "RoomId": "07",
+    "Status": 1
+  },
+  {
+    "Id": "9456",
+    "PatientJmbg": "222222223",
+    "ReferralId": "80257",
+    "Start": "2023-06-14T18:31:15.0293031+02:00",
+    "End": "2023-06-17T18:31:15.0293062+02:00",
+    "Therapy": "Take a rest for 3 days",
+    "RoomId": "07",
+    "Status": 1
+  },
+  {
+    "Id": "86469",
+    "PatientJmbg": "111111113",
+    "ReferralId": "19917",
+    "Start": "2023-06-14T18:31:29.8299273+02:00",
+    "End": "2023-06-16T18:31:29.8299306+02:00",
+    "Therapy": "Rest for 2 days",
+    "RoomId": "07",
+    "Status": 1
+  }
+]

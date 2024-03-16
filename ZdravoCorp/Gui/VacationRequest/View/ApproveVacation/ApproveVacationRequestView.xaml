@@ -1,0 +1,30 @@
+﻿<Window x:Class="ZdravoCorp.Gui.VacationRequest.View.ApproveVacation.ApproveVacationRequestView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.Gui.VacationRequest.View.ApproveVacation"
+        mc:Ignorable="d"
+        Title="ApproveVacationRequestView" Height="450" Width="800">
+    <Grid>
+
+        <DataGrid x:Name="vacationDataGrid" AutoGenerateColumns="False"
+                  ItemsSource="{Binding VacationRequests}"
+                  SelectedItem="{Binding SelectedVacationRequest, Mode=TwoWay}"
+                  Margin="31,10,31,164">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Doctor JMBG" Binding="{Binding DoctorJmbg}" Width="*" />
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*" />
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="*" />
+                <DataGridTextColumn Header="Reason" Binding="{Binding Reason}" Width="*" />
+                <DataGridTextColumn Header="Start" Binding="{Binding Start}" Width="*" />
+                <DataGridTextColumn Header="End" Binding="{Binding End}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Approve Vacation" HorizontalAlignment="Center" Height="40" Margin="0,344,0,0" VerticalAlignment="Top" Width="152">
+            <Button.Command>
+                <Binding Path="ApproveVacationCommand" Mode="OneWay"/>
+            </Button.Command>
+        </Button>
+    </Grid>
+</Window>

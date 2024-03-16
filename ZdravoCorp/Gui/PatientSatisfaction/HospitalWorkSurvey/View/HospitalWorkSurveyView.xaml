@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="ZdravoCorp.Gui.PatientSatisfaction.HospitalWorkSurvey.View.HospitalWorkSurveyView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.Gui.PatientSatisfaction.HospitalWorkSurvey.View"
+        mc:Ignorable="d" Height="450" Width="800">
+    <Grid Background="#FFE5E5E5">
+            <Label Content="Service.cs:" HorizontalAlignment="Left" Height="37" Margin="61,46,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+            <Label Content="Cleanliness:" HorizontalAlignment="Left" Height="42" Margin="61,100,0,0" VerticalAlignment="Top" Width="132" FontWeight="Bold"/>
+            <Label Content="Recommendation:" HorizontalAlignment="Left" Height="42" Margin="61,147,0,0" VerticalAlignment="Top" Width="174" FontWeight="Bold"/>
+            <Label Content="Comment (optional):" HorizontalAlignment="Left" Height="42" Margin="61,207,0,0" VerticalAlignment="Top" Width="174" FontWeight="Bold" FontSize="16"/>
+        <ComboBox x:Name="serviceComboBox" HorizontalAlignment="Left" Text="{Binding Service,UpdateSourceTrigger=PropertyChanged}" Height="37" Margin="248,46,0,0" VerticalAlignment="Top" Width="57">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="2"/>
+                <ComboBoxItem Content="3"/>
+                <ComboBoxItem Content="4"/>
+                <ComboBoxItem Content="5"/>
+            </ComboBox>
+        <ComboBox x:Name="cleanlinessComboBox" HorizontalAlignment="Left" Text="{Binding Cleanliness,UpdateSourceTrigger=PropertyChanged}" Height="33" Margin="248,100,0,0" VerticalAlignment="Top" Width="57">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="2"/>
+                <ComboBoxItem Content="3"/>
+                <ComboBoxItem Content="4"/>
+                <ComboBoxItem Content="5"/>
+            </ComboBox>
+        <ComboBox x:Name="recommendationComboBox" HorizontalAlignment="Left" Text="{Binding Recommendation,UpdateSourceTrigger=PropertyChanged}"  Height="32" Margin="248,152,0,0" VerticalAlignment="Top" Width="57" RenderTransformOrigin="0.491,-0.309">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="2"/>
+                <ComboBoxItem Content="3"/>
+                <ComboBoxItem Content="4"/>
+                <ComboBoxItem Content="5"/>
+            </ComboBox>
+        <TextBox x:Name="commentText" HorizontalAlignment="Left" Height="63" Margin="248,207,0,0" TextWrapping="Wrap" Text="{Binding Comment,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="262"/>
+            <Button Content="Submit" Command="{Binding SubmitHospitalSurveyCommand}" HorizontalAlignment="Left" Height="45" Margin="61,307,0,0" VerticalAlignment="Top" Width="132" FontWeight="Bold" Background="#FF08F90C"/>
+
+        
+    </Grid>
+</UserControl>

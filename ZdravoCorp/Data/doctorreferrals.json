@@ -1,0 +1,74 @@
+[
+  {
+    "Used": true,
+    "DoctorJmbg": "444555666",
+    "PatientJmbg": "222222223",
+    "Id": "26829"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "444555666",
+    "PatientJmbg": "222222223",
+    "Id": "84964"
+  },
+  {
+    "Used": true,
+    "DoctorJmbg": "987654321",
+    "PatientJmbg": "222222223",
+    "Id": "8899"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "444555666",
+    "PatientJmbg": "222222223",
+    "Id": "74931"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "987654321",
+    "PatientJmbg": "111111113",
+    "Id": "58311"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "444555666",
+    "PatientJmbg": "696964321",
+    "Id": "72761"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "444555666",
+    "PatientJmbg": "111111113",
+    "Id": "81059"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "123123111",
+    "PatientJmbg": "111111113",
+    "Id": "15875"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "444555666",
+    "PatientJmbg": "123456789",
+    "Id": "88641"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "111222333",
+    "PatientJmbg": "123456789",
+    "Id": "28394"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "123123111",
+    "PatientJmbg": "123456789",
+    "Id": "87196"
+  },
+  {
+    "Used": false,
+    "DoctorJmbg": "123123111",
+    "PatientJmbg": "123456789",
+    "Id": "67778"
+  }
+]

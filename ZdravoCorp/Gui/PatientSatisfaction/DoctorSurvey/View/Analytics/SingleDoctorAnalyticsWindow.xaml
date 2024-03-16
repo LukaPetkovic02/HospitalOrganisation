@@ -1,0 +1,21 @@
+﻿<Window x:Class="ZdravoCorp.Gui.PatientSatisfaction.DoctorSurvey.View.Analytics.SingleDoctorAnalyticsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.Gui.PatientSatisfaction.DoctorSurvey.View.Analytics"
+        mc:Ignorable="d"
+        Title="SingleDoctorAnalyticsWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="surveyDataGrid" AutoGenerateColumns="False"
+                  ItemsSource="{Binding Surveys}"
+                  Margin="31,85,31,50">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Service.cs" Binding="{Binding Service}" Width="80" />
+                <DataGridTextColumn Header="Comment" Binding="{Binding Comment}" Width="*" />
+                <DataGridTextColumn Header="Recommendation" Binding="{Binding Recommendation}" Width="80"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Name="DoctorID" Content="{Binding DoctorId}" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="672" />
+    </Grid>
+</Window>

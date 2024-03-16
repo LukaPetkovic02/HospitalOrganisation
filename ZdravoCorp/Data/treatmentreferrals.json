@@ -1,0 +1,72 @@
+[
+  {
+    "Duration": 2,
+    "Therapy": "Sleep at least 8 hours",
+    "Additional examinations": [
+      "asfasf",
+      "asfasf",
+      "asfasf",
+      "asfasf"
+    ],
+    "Used": true,
+    "DoctorJmbg": "111222333",
+    "PatientJmbg": "222222223",
+    "Id": "55027"
+  },
+  {
+    "Duration": 3,
+    "Therapy": "Take a rest for 3 days",
+    "Additional examinations": [
+      "Blood test"
+    ],
+    "Used": false,
+    "DoctorJmbg": "111222333",
+    "PatientJmbg": "222222223",
+    "Id": "80257"
+  },
+  {
+    "Duration": 2,
+    "Therapy": "Rest for 2 days",
+    "Additional examinations": [
+      "Check heart beat"
+    ],
+    "Used": false,
+    "DoctorJmbg": "444555666",
+    "PatientJmbg": "111111113",
+    "Id": "19917"
+  },
+  {
+    "Duration": 3,
+    "Therapy": "Sleep at least 8 hours",
+    "Additional examinations": [
+      "Check blood pressure",
+      "Check blood pressure"
+    ],
+    "Used": true,
+    "DoctorJmbg": "123123123",
+    "PatientJmbg": "123456789",
+    "Id": "41159"
+  },
+  {
+    "Duration": 5,
+    "Therapy": "Eat sleep drive repeat",
+    "Additional examinations": [
+      "Nothing"
+    ],
+    "Used": false,
+    "DoctorJmbg": "123123123",
+    "PatientJmbg": "123456789",
+    "Id": "84981"
+  },
+  {
+    "Duration": 2,
+    "Therapy": "Blabla",
+    "Additional examinations": [
+      "asfasf"
+    ],
+    "Used": false,
+    "DoctorJmbg": "123123123",
+    "PatientJmbg": "123456789",
+    "Id": "87977"
+  }
+]

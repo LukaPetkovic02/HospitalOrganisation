@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "11109",
+    "TreatmentId": "222222223",
+    "date": "2023-06-14T18:11:28.3396192+02:00",
+    "time": 0,
+    "Observation": "fewarfe"
+  },
+  {
+    "Id": "61227",
+    "TreatmentId": "222222223",
+    "date": "2023-06-14T18:11:51.7473282+02:00",
+    "time": 1,
+    "Observation": "asdzxc"
+  },
+  {
+    "Id": "54608",
+    "TreatmentId": "222222223",
+    "date": "2023-06-14T18:32:14.3320045+02:00",
+    "time": 0,
+    "Observation": "qwe rqwe rsdf ewr a"
+  },
+  {
+    "Id": "27518",
+    "TreatmentId": "222222223",
+    "date": "2023-06-14T19:06:22.2885721+02:00",
+    "time": 0,
+    "Observation": "rqwrqwr"
+  }
+]
